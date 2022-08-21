@@ -8,7 +8,7 @@
             .then(res => res.json())
             .then(({ ip }) => {
               fetch(
-                `https://suggestions.dadata.ru/suggestions/api/4_1/rs/iplocate/address?ip=${ip}&token=1ebce376c2047bbc83a267ad4a70a81401c901a7`
+                `https://suggestions.dadata.ru/suggestions/api/4_1/rs/iplocate/address?ip=${ip}&token=ВАШ_КЛЮЧ_ДАДАТА`
               )
                 .then(res => res.json())
                 .then(json => {
