@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/suggestions-jquery@21.12.0/dist/css/suggestions.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="main-form" id="main">
+        <!-- 2) только ввод букв (кириллица/латиница) -->
+        <div class="blockInput">
+            <input name="main" id="address" type="text" pattern="^[A-Za-zА-Яа-яЁё ]+$" >
+            <ul class="list"></ul>
+        </div>
+        <input type="submit" id="sub">
+    </form>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/suggestions-jquery@21.12.0/dist/js/jquery.suggestions.min.js"></script>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
